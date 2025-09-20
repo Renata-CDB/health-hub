@@ -1,0 +1,39 @@
+# package directories
+node_modules
+jspm_packages
+.dynamodb
+# Serverless directories
+.serverless
+/webpack
+.idea
+# package-lock.json
+webpack/*/node_modules
+/test/js
+/test/browsertest/js
+/test/fixtures/temp-*
+/test/temp
+/test/ChangesAndRemovals
+/test/**/dev-defaults.webpack.lock
+/benchmark/js
+/benchmark/fixtures
+/examples/**/dist
+/assembly/**/*.wat
+/assembly/**/*.wasm
+/coverage
+/.nyc_output
+/.jest-cache
+.DS_Store
+*.log
+.idea
+.vscode
+.cache
+.eslintcache
+package-lock.json
+.webpack
+.webpack/**
+/webpack
+/.webpack
+epa-application-plane-backend-serverless/.webpack
+.env
+/.env
+google-credentials.json

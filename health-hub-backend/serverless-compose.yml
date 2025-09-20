@@ -1,0 +1,10 @@
+services:
+  # do not change this order, the user-service need to be the first one
+  user-service:
+    path: src/services/user-service
+  appointment-service:
+    path: src/services/appointment-service
+  doctor-service:
+    path: src/services/doctor-service
+  patient-service:
+    path: src/services/patient-service
